@@ -1,0 +1,127 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  --very-light-gray: hsl(0, 0%, 95%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.sedans {
+  background: var(--bright-orange);
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 3rem;
+  height: 440px;
+}
+
+.suvs {
+  background: var(--dark-cyan);
+  padding: 3rem;
+  height: 440px;
+}
+
+.luxury {
+  background: var(--very-dark-cyan);
+  border-radius: 0 0 0.5rem 0.5rem;
+  padding: 3rem;
+  height: 440px;
+}
+
+.tituloTipos {
+  color: var(--very-light-gray);
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2rem;
+  margin: 2rem 0;
+  text-transform: uppercase;
+}
+
+.descricaoTipos {
+  color: var(--transparent-white);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+.botao {
+  border: none;
+  border-radius: 2rem;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  margin-top: 3rem;
+  padding: 0.8rem 1.5rem;
+}
+
+.sedans__botao {
+  color: var(--bright-orange);
+}
+
+.sedans__botao:hover {
+  background-color: var(--bright-orange);
+  border: 2px solid white;
+  color: white;
+}
+
+.suvs__botao {
+  color: var(--dark-cyan);
+}
+
+.suvs__botao:hover {
+  background-color: var(--dark-cyan);
+  border: 2px solid white;
+  color: white;
+}
+
+.luxury__botao {
+  color: var(--very-dark-cyan);
+}
+
+.luxury__botao:hover {
+  background-color: var(--very-dark-cyan);
+  border: 2px solid white;
+  color: white;
+}
+
+@media screen and (min-width: 1200px) {
+  .principal {
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    margin: 10rem 0 3rem 0;
+  }
+
+  .sedans {
+    border-radius: 1rem 0 0 1rem;
+    height: auto;
+    width: 305px;
+  }
+
+  .suvs {
+    height: auto;
+    width: 305px;
+  }
+
+  .luxury {
+    border-radius: 0 1rem 1rem 0;
+    height: auto;
+    width: 305px;
+  }
+
+  .botao {
+    margin-top: 5rem;
+    padding: 0.8rem 1rem;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -32,8 +32,8 @@ My project!![](./assets/Screenshot%20Project/Screenshot%20of%20my%20project.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/my-solution-for-3column-preview-card-component-5tquK2HOUU)
+- Live Site URL: (https://gabrielevangelista06.github.io/FrontEnd-Mentor-Challenge-3-column-preview-card-component/)
 
 ## My process
 

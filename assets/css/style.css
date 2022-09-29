@@ -7,6 +7,10 @@
   --transparent-white: hsla(0, 0%, 100%, 0.75);
 }
 
+body {
+  background-color: var(--very-light-gray);
+}
+
 .principal {
   display: flex;
   flex-direction: column;

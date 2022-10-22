@@ -2,7 +2,7 @@
 
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-![](https://ibb.co/vHxSMGt#vitrinedev)
+![](https://i.ibb.co/DtDZjyq/Captura-de-tela-2022-10-22-002727.png#vitrinedev)
 
 ## Table of contents
 
